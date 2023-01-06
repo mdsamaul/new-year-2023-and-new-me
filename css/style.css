@@ -215,7 +215,7 @@ nav {
 }
 
 .img-opacity-wh {
-    background-image: url(../images/watch.png), linear-gradient(90deg, rgb(255, 88, 10),rgba(255, 88, 10, 0.596),rgba(255, 88, 10, 0));
+    background-image: url(../images/watch.png), linear-gradient(90deg, rgb(255, 88, 10), rgba(255, 88, 10, 0.596), rgba(255, 88, 10, 0));
     border-radius: 5px;
     width: 1040px;
     height: 250px;
@@ -236,10 +236,12 @@ nav {
     text-shadow: 2px 2px #ff0000;
 
 }
-.phone-icon{
+
+.phone-icon {
     margin: 0 10px;
 }
-.opacity button{
+
+.opacity button {
     padding: 20px 40px;
     color: red;
     background-color: #FFFFFF;
@@ -248,8 +250,101 @@ nav {
     font-weight: 600;
 
 }
-.opacity button:hover{
+
+.opacity button:hover {
     background-color: rgb(255, 88, 10);
     border: 1px solid #ffffff;
     color: #ffffff;
+}
+
+/* footer section */
+footer {
+    width: 100%;
+    height: 70vh;
+    background-color: #151414;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.future-title {
+    color: #ffffff;
+    padding: 40px 0 20px 0;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.future-details {
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 100;
+    font-family:  sans-serif;
+    line-height: 25px;
+
+}
+
+.email-phon {
+    color: #ffffff;
+    padding: 20px 0;
+    font-family: sans-serif;
+    margin: auto;
+}
+
+.soceal-icon {
+    display: flex;
+    font-size: 30px;
+}
+.color-g{
+    color: #1da1f2;
+}
+.color-g:hover{
+    color: #FFFFFF;
+}
+.color-r{
+    color: #ff0000;
+}
+.icon-fb {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    border-radius: 55px 55px;
+    margin: 10px 10px;
+    transition: .7s;
+
+}
+.icon-fb:hover{
+    transition: .7s;
+    color: #FFFFFF;
+    background-color: #1da1f2;
+}
+.footer-right{
+    margin: 0 0 0 -300px;
+}
+.subscribe-title{
+    color: #FFFFFF;
+    font-size: 35px;
+}
+.email-input input{
+    width: 100%;
+    padding: 14px 10px;
+    margin: 20px 0;
+    background-color: #151414;
+    border-radius: 5px;
+    border: 1px solid #FFFFFF;
+}
+.btn-ubscribe{
+    padding: 13px 40px;
+    font-size: 18px;
+    background-color: #ffffff;
+    color: #151414;
+}
+.btn-ubscribe:hover{
+    background-color: #151414;
+    color: #FFFFFF;
+    border: 1px solid #ffffff;
 }
