@@ -67,7 +67,7 @@ nav {
     color: #151414;
     padding: 100px 180px 0 500px;
     font-family: 'Allerta', sans-serif;
-       
+
 }
 
 .banner-details {
@@ -85,14 +85,65 @@ nav {
     border: 1px solid #f15b22;
     transition: .7s;
 }
-.btn:hover{
+
+.btn:hover {
     background-color: #bec2c3;
     transition: .7s;
     color: #151414;
+    border: 1px solid #22201f;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
+
 .contact-btn {
     margin: 20px 180px 0 0;
     font-weight: 400;
     font-size: 20px;
     color: #FFFFFF;
+}
+
+/* style My failures of previous year section */
+.failures {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.failures-img-left img {
+    width: 480px;
+    height: 600px;
+    margin: 80px 0 30px 0px;
+}
+
+.failures-text-left {
+    padding: 0 100px;
+}
+
+.failures-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    padding: 20px 0;
+}
+
+.failres-details {
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Work Sans';
+    color: #444343;
+    padding: 20px 0;
+}
+
+.checkmark {
+    list-style: none;
+    color: #444343;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Work Sans';
+}
+
+.checkmark li:before {
+    content: '✓';
+    color: green;
+    font-size: 22px;
+    font-weight: 700;
 }
