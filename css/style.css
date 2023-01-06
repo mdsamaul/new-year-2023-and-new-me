@@ -80,7 +80,7 @@ nav {
     border-radius: 5px;
     color: #ffffff;
     background-color: #f15b22;
-    padding: 20px 25px;
+    padding: 12px 25px;
     cursor: pointer;
     border: 1px solid #f15b22;
     transition: .7s;
@@ -276,7 +276,7 @@ footer {
 
 .future-details {
     color: #ffffff;
-    font-size: 13px;
+    font-size: 16px;
     font-weight: 100;
     font-family:  sans-serif;
     line-height: 25px;
@@ -323,19 +323,21 @@ footer {
     background-color: #1da1f2;
 }
 .footer-right{
-    margin: 0 0 0 -300px;
+    width: 27%;
+    height: 48vh;
+    
 }
 .subscribe-title{
     color: #FFFFFF;
     font-size: 35px;
 }
 .email-input input{
-    width: 100%;
+    width: 65%;
     padding: 14px 10px;
     margin: 20px 0;
     background-color: #151414;
     border-radius: 5px;
-    border: 1px solid #FFFFFF;
+    border: 1px solid #ececec;
 }
 .btn-ubscribe{
     padding: 13px 40px;
